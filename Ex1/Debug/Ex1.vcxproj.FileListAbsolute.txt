@@ -1,0 +1,3 @@
+C:\Users\hp_br\source\repos\Ex1\Ex1\Debug\Ex1.exe
+C:\Users\hp_br\source\repos\Ex1\Ex1\Debug\Ex1.pdb
+C:\Users\hp_br\source\repos\Ex1\Debug\Ex1.pdb
