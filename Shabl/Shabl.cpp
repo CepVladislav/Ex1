@@ -20,14 +20,14 @@ void funks(T* a, T* b)
 {
     std::cout << "Enter string: ";
     std::cin >> a >> b;
-    if (fmod(sizeof(a), sizeof(b) == 0))
+    if (fmod(sizeof(a), sizeof(b)) == 0)
     {
         strcat(a, b);
         std::cout << a;
     }
-    else if(fmod(sizeof(a), sizeof(b) == 1)) std::cout << (sizeof(a) > sizeof(b) ? a : b);
-    else if (fmod(sizeof(a), sizeof(b) == 2)) std::cout << (sizeof(a) < sizeof(b) ? a : b);
-    else if (fmod(sizeof(a), sizeof(b) == 3))
+    else if (fmod(sizeof(a), sizeof(b)) == 1) std::cout << (sizeof(a) > sizeof(b) ? a : b);
+    else if (fmod(sizeof(a), sizeof(b)) == 2) std::cout << (sizeof(a) < sizeof(b) ? a : b);
+    else if (fmod(sizeof(a), sizeof(b)) == 3)
     {
         int j=0;
         char counter[90];
