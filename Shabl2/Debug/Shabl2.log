@@ -1,0 +1,10 @@
+﻿  Shabl2.cpp
+C:\Users\hp_br\source\repos\Shabl2\Shabl2.cpp(41,34): warning C4244: =: преобразование "T" в "int", возможна потеря данных
+          with
+          [
+              T=double
+          ]
+C:\Users\hp_br\source\repos\Shabl2\Shabl2.cpp(26): message : во время компиляции функции-члена класс шаблон "void Array<double>::Funktion(void)"
+C:\Users\hp_br\source\repos\Shabl2\Shabl2.cpp(54): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Array<double>::Funktion(void)"
+C:\Users\hp_br\source\repos\Shabl2\Shabl2.cpp(52): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Array<double>"
+  Shabl2.vcxproj -> C:\Users\hp_br\source\repos\Shabl2\Debug\Shabl2.exe
