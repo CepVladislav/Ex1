@@ -1,0 +1,3 @@
+﻿  Lamda.cpp
+C:\Users\hp_br\source\repos\Lamda\Lamda.cpp(14,34): warning C4227: устаревший элемент: пропуск квалификаторов для ссылки
+  Lamda.vcxproj -> C:\Users\hp_br\source\repos\Lamda\Debug\Lamda.exe
