@@ -57,6 +57,3 @@ int main()
 	//strarr.Funktion();
     return 0;
 }
-
-
-//+ строки
