@@ -1,0 +1,4 @@
+C:\Users\hp_br\source\repos\file\Debug\file.exe
+C:\Users\hp_br\source\repos\file\Debug\file.pdb
+C:\Users\vlad0\Desktop\file\Debug\file.exe
+C:\Users\vlad0\Desktop\file\Debug\file.pdb
