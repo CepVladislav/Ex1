@@ -1,0 +1,4 @@
+﻿  Memory.cpp
+C:\Users\hp_br\source\repos\Memory\Memory.cpp(33,5): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+C:\Users\hp_br\source\repos\Memory\Memory.cpp(34,5): warning C4834: отмена возвращаемого значения функции с атрибутом "nodiscard"
+  Memory.vcxproj -> C:\Users\hp_br\source\repos\Memory\Debug\Memory.exe

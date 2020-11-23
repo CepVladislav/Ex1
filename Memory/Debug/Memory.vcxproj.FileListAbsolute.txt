@@ -1,0 +1,2 @@
+C:\Users\hp_br\source\repos\Memory\Debug\Memory.exe
+C:\Users\hp_br\source\repos\Memory\Debug\Memory.pdb
