@@ -96,15 +96,17 @@ int main()
                     break;
                 }
             }
-            char* file_string = new char[1024];
+            //char* file_string = new char[1024];
             while (!input.eof())
             {
                 vec.resize(file_str_count + 1 + add_count);
                 input >> vec[file_str_count + add_count];
-                input.getline(file_string, 1024, '\n');
+                input << std::endl;
+                //input.getline(file_string, 1024, '\n');
                 file_str_count++;
             }
-            delete file_string;
+            //delete[]file_string;
+            input.close();
             break;
         }
         case(2):
@@ -263,10 +265,16 @@ int main()
         }
         case(10):
         {
-            // не получается записать в файл :(
-            //input << vec[0];
-            //input << std::endl;
-            //fclose;
+            input.open(line);
+            for(auto a : vec)
+            {
+                input << a;
+                input << std::endl;
+                vec.pop_back();
+            }
+            input.close();
+            add_count = 0;
+            file_str_count = 0;
             break;
         }
         case(0):
