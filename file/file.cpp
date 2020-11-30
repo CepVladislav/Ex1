@@ -77,7 +77,7 @@ int main()
         {
             std::cin >> n;
             if (n >= 0 && n <= 10) break;
-            else std::cout << "Введите число от 0 до 9" << std::endl;
+            else std::cout << "Введите число от 0 до 10" << std::endl;
         }
         switch (n)
         {
@@ -96,16 +96,16 @@ int main()
                     break;
                 }
             }
-            //char* file_string = new char[1024];
+            char* file_string = new char[1024];
             while (!input.eof())
             {
                 vec.resize(file_str_count + 1 + add_count);
                 input >> vec[file_str_count + add_count];
-                input << std::endl;
-                //input.getline(file_string, 1024, '\n');
+                //input << std::endl;
+                input.getline(file_string, 1024, '\n');
                 file_str_count++;
             }
-            //delete[]file_string;
+            delete[]file_string;
             input.close();
             break;
         }
