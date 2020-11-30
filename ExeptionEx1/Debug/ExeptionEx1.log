@@ -1,0 +1,6 @@
+﻿  ExeptionEx1.cpp
+C:\Users\hp_br\source\repos\ExeptionEx1\ExeptionEx1.cpp(37,10): warning C4101: done: неиспользованная локальная переменная
+C:\Users\hp_br\source\repos\ExeptionEx1\ExeptionEx1.cpp(35): message : во время компиляции функции-члена класс шаблон "void Queue<char>::add_elem(void)"
+C:\Users\hp_br\source\repos\ExeptionEx1\ExeptionEx1.cpp(85): message : выполняется компиляция ссылки на экземпляр шаблон функции "void Queue<char>::add_elem(void)"
+C:\Users\hp_br\source\repos\ExeptionEx1\ExeptionEx1.cpp(82): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "Queue<char>"
+LINK : fatal error LNK1168: не удается открыть C:\Users\hp_br\source\repos\ExeptionEx1\Debug\ExeptionEx1.exe для записи
