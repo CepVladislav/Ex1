@@ -38,7 +38,7 @@ void park_way(std::deque<Autobus> &a, std::deque<Autobus> &b, int pos)
 
 int main()
 {
-    std::deque<Autobus> Park = { {1000,"Obema",1}, {1001,"Putin",2}, {1002,"Luka",3}, {1003,"Kimchenyi",4}, {1004,"Tramp",5} };
+    std::deque<Autobus> Park = { {1000,"Mister1",1}, {1001,"Mister2",2}, {1002,"Mister3",3}, {1003,"Mister4",4}, {1004,"Mister5",5} };
     std::deque<Autobus> Way;
     std::cout << "In park: " << std::endl;
     for(auto a : Park)
