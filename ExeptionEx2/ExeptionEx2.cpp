@@ -18,7 +18,7 @@ public:
 	const char* getError() { return m_error.c_str(); }
 };
 
-class ArrayInt
+class Dofile
 {
 private:
 	std::string fileString;
@@ -26,7 +26,7 @@ private:
 	std::fstream file;
 	std::vector<std::string> v;	
 public:
-	ArrayInt() 
+	Dofile() 
 	{
 		name = "fil.txt";
 		file.open(name);
@@ -38,7 +38,7 @@ public:
 		else
 			std::cout << "File opened" << std::endl;
 	}
-	ArrayInt(std::string _name)
+	Dofile(std::string _name)
 	{
 		name = _name;
 		file.open(name);
@@ -81,7 +81,7 @@ int main()
 {
 	try
 	{
-		ArrayInt array;
+		Dofile A;
 	}
 	catch (ArrayException& exception)
 	{
@@ -89,9 +89,9 @@ int main()
 	}
 	try
 	{
-		ArrayInt array("file.txt");
-		array.read();
-		array.write("output.txt");
+		Dofile F("file.txt");
+		F.read();
+		F.write("output.txt");
 
 	}
 	catch (ArrayException& exception)
