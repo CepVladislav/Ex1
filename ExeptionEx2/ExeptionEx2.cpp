@@ -3,7 +3,6 @@
 #include <fstream>
 #include <vector>
 
-//класс-исключение
 class ArrayException
 {
 private:
